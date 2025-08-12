@@ -1,0 +1,58 @@
+package hi;
+import java.util.Scanner;
+class Arm {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number");
+        int n=sc.nextInt();
+        int c=0,sum=0,x=0;
+        int a=n;
+        int b=a;
+        while(n>0){
+            n=n/10;
+            c++;
+        }
+        System.out.println(c);
+        while(a>0){
+            x=a%10;
+            sum=sum+(int)Math.pow(x,c);
+            a=a/10;
+        }
+        if(b==sum){
+            System.out.println("arm");
+        }
+        else{
+            System.out.println("not");
+        }
+    }
+}
+
+
+BILL
+
+
+
+package hi;
+
+public class Bill {
+	public static void main(String[] args) {
+		int a=100;
+		int b=200;
+		int c=200;
+		if(a<100) {
+			System.out.println("total amount: "+(a*2));
+		}
+		else if(b<200 && b>99) {
+			double total=(b*3)+((b*3)*15/100);
+			System.out.println("total amount: "+total);
+		}
+		else if(c<500 && b>199) {
+			double total=(c*5)+((c*5)*25/100);
+			System.out.println("total amount: "+total);
+		}
+		else {
+			System.out.println("print total bill: ");
+		}
+	}
+
+}
