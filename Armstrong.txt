@@ -19,12 +19,13 @@ class Arm {
             a=a/10;
         }
         if(b==sum){
-            System.out.println("arm");
+            System.out.println("armstrong");
         }
         else{
-            System.out.println("not");
+            System.out.println("not armstrong");
         }
     }
 }
+
 
 
