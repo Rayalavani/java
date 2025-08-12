@@ -1,3 +1,4 @@
+//FIND GIVEN NUMBER ARMSTRONG NUMBER OR NOT
 package hi;
 import java.util.Scanner;
 class Arm {
@@ -19,13 +20,19 @@ class Arm {
             a=a/10;
         }
         if(b==sum){
-            System.out.println("armstrong");
+            System.out.println("it is a armstrong number");
         }
         else{
-            System.out.println("not armstrong");
+            System.out.println("it is not a armstrong strong");
         }
     }
 }
+//OUTPUT:Enter a number
+153
+3
+it is a armstrong number
+
+
 
 
 
